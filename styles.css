@@ -1,0 +1,46 @@
+h1{
+    
+    text-align: center;
+    font-size: 4rem;
+    color: blue;
+    text-shadow: -1px 1px 2px #000,  1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+h2{
+    
+    text-align: center;
+    font-size: 4rem;
+    color: blue;
+    text-shadow: -1px 1px 2px #000,  1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+.grid {
+    margin: 0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+.reload 
+{       
+
+    color: blue;;
+    border-radius: 0.4rem;
+    border: 3px solid;
+    cursor: pointer;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+
+
+}
+.reload:hover
+{
+    color: #20d3eb;
+}
+.reload:focus-visible
+{
+    color: #020708;
+}
